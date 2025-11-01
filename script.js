@@ -2,7 +2,7 @@ const imageList = [
     "indexcard.png",
     "mask.png",
 	"monster.png",
-	"brian.png",
+	"oughbrian.png",
 ];
 
 const imageFolder = "images/index_images/";
@@ -21,5 +21,6 @@ function displayRandomImage() {
 	
     console.log(`Displayed: ${fullImagePath}`);
 }
+
 
 document.addEventListener('DOMContentLoaded', displayRandomImage);
