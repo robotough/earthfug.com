@@ -5,92 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>earth fug</title>
   <link rel="icon" type="image" href="images/favicon_io/favicon.ico">
-  <style>
-    body {
-      background-color: #000000;
-      font-family: "Comic Sans MS", "Comic Sans", "Roboto", sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #000000;
-      padding: 1em 0;
-    }
-
-    header img {
-      max-width: 500px;
-      width: 80%;
-      height: auto;
-    }
-
-    .comic-container {
-      margin: 20px auto;
-      max-width: 800px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      padding: 20px;
-    }
-
-    img.comic-page {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-    }
-
-    nav {
-      margin: 15px 0;
-    }
-
-    nav a {
-      display: inline-block;
-      margin: 0 10px;
-      padding: 10px 15px;
-      background: #333;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background 0.2s;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      background: #555;
-    }
-
-    footer {
-      margin: 40px 0;
-      color: #666;
-      font-size: 0.9em;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
 
   <header>
     <img src="images/logo.png" alt="ough">
   </header>
-
-  <div class="comic-container">
-
+  
+    <img src="images/index_images/indexcard.png">
+  
+  
+  <h3>Catalogue</h3>
+<ul class="index-list">
+    <li><a href="pages/1/page1.html">Chapter 1</a></li>
+    <li><a href="pages/2/page2.html">Chapter 2</a></li>
+    <li><a href="pages/3/page3.html">Chapter 3</a></li>
+    <!-- Add more links here -->
+</ul>
+  
+  <div class="nav-container">
     <nav>
-      <a href="page1.html">First</a>
-      <a href="page1.html">Prev</a>
-      <a href="page2.html">Next</a>
-      <a href="page2.html">Latest</a>
+	  <a href="index.html">Catalog</a>
+      <a href="pages/1/page1.html">Prev</a>
+      <a href="pages/2/page2.html">Next</a>
+      <a href="pages/new/new.html">Latest</a>
     </nav>
-
-    <img src="pages/pg1.jpg?7" alt="ough" class="comic-page">
-
-    <nav>
-      <a href="page1.html">First</a>
-      <a href="page1.html">Prev</a>
-      <a href="page2.html">Next</a>
-      <a href="page2.html">Latest</a>
-    </nav>
-
   </div>
 
   <footer>
